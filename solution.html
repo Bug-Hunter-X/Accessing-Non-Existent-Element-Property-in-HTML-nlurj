@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Corrected HTML</title>
+</head>
+<body>
+  <div id="myDiv"></div>
+  <script>
+    const divElement = document.getElementById("myDiv");
+    if (divElement) {
+      //Check if the element exists before accessing
+      divElement.textContent = "Property access successful!";
+    } else {
+      console.error("Element with id 'myDiv' not found.");
+    }
+  </script>
+</body>
+</html>
