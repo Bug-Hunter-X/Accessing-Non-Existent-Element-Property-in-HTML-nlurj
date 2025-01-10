@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Uncommon HTML Error</title>
+</head>
+<body>
+  <div id="myDiv"></div>
+  <script>
+    //Attempting to access a non-existent property of an element can lead to unexpected behavior. 
+    //This can happen when the element does not exist or when the property is not defined for that element.
+    document.getElementById("myDiv").nonExistentProperty = "test";
+  </script>
+</body>
+</html>
